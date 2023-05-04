@@ -6,7 +6,7 @@ import math
 from tqdm.notebook import tqdm
 import time
 
-def flow_basic2(r1=6e-2, r2=6e-2, length=400, steps=20000, flow_rate=1, cc=1.7e-6, c_ini=4e-4, T=273.15, plot=True, CH4_trans=1, H2_trans=1, CO_trans=1, fcheck=True, carrier=1):
+def flow_basic2(r1=3e-2, r2=3e-2, length=100, steps=20000, flow_rate=0.01, cc=1.7e-6, c_ini=4e-4, T=273.15, plot=True, CH4_trans=1, H2_trans=1, CO_trans=1, fcheck=True, carrier=1):
         
     starttime=time.time()
     # Auto-params:
