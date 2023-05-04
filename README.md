@@ -1,4 +1,4 @@
-# methanogenesis-model
+# Methanogenesis Model
 Simple model of methanogenesis ($3H_2 + CO \rightarrow CH_4 + H_2O$) in a tube-in-tube flow reactor. Users can control tube length and radius, reaction rate, initial concentrations, membrane permeability, and use of a carrier gas. 
 
 ### Structure:
